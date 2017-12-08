@@ -34,7 +34,10 @@ app
 		this.links = ['/', '#', '#fruit', '#search?keyword=hello']
 
 top
-	h1.well top page
+	jst
+	script.
+		//https://qiita.com/t-yng/items/c8c4728ae36afdd2aaac
+		const obs = riot.observable()
 
 fruit
 	h1 fruit page
